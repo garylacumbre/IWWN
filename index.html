@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>IWWN</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Caladea:400,400i,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="header-container">
+
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <p class="overlay-title">About</p>
+              <p><a href="#">Mission</a></p>
+              <p><a href="#">Team</a></p>
+              <p><a href="#">Members</a></p>
+            </div>
+            <div class="overlay-content">
+              <p class="overlay-title">Discover</p>
+              <p><a href="#">News</a></p>
+              <p><a href="#">Articles</a></p>
+              <p><a href="#">Teaching</a></p>
+              <p><a href="#">Periodicals</a></p>
+            </div>
+            <div class="overlay-content">
+              <p class="overlay-title">Bibliography</p>
+              <p><a href="#">Primary Works</a></p>
+              <p><a href="#">Secondary Works</a></p>
+            </div>
+            <div class="overlay-content">
+              <p class="overlay-title-contact"><a href="#">Contact</a></p>
+            </div>
+          </div>
+
+          <div id="title-text-container">
+            <p id="title-text"><a href="index.html">IWWN</a></p>
+          </div>
+          <div id="icon-container">
+            <span id="menu-icon" onclick="openNav()">&#9776;</span>
+          </div>
+          <h1>Irish Women's Writing(1880-1920) Network</h1>
+          <img src="images/typewriter.svg" alt="">
+        </div>
+
+        <script>
+          function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+          }
+          
+          function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+          }
+          </script>
+    </body>
+</html>
