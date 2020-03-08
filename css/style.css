@@ -16,12 +16,15 @@ a {
 
 #header-container {
   width: 100%;
+  height: 100vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* ****************************** OVERLAY */
+
+/* Notes - font is too big - header and image too low - icon looks faded and offcentre - overlad too long */
 
 .overlay {
   height: 100%;
