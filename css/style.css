@@ -3,9 +3,8 @@
 body {
   margin: 0 auto;
   width: 100vw;
-  height: 100vh;
   background-color: #fff4eb;
-  font-family: 'Caladea', serif;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 a {
@@ -21,6 +20,7 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  min-height: 100vh;
 }
 
 /* ****************************** OVERLAY */
@@ -51,7 +51,7 @@ a {
 .overlay a, .overlay p {
   padding: 4px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   color: #f1f1f1;
   display: block;
   transition: 0.3s;
@@ -64,14 +64,14 @@ a {
 
 p.overlay-title {
   text-decoration: underline;
-  font-size: 28px;
+  font-size: 22px;
   color: #fff4eb;
   margin: 0;
 }
 
 .overlay-title-contact a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 800;
 }
 
@@ -92,8 +92,8 @@ p.overlay-title {
 }
 
 #title-text {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 700;
   text-align: center;
   color: white;
   background-color: black;
@@ -105,21 +105,21 @@ p.overlay-title {
 }
 
 #menu-icon {
-  font-size:40px;
+  font-size:24px;
   cursor:pointer;
   text-align: center;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 34px;
   text-align: center;
   margin: 0 5% 0 5%;
   padding-top: 40%;
 }
 
 #header-container img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
